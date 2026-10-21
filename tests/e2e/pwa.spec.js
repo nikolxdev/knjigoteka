@@ -28,6 +28,7 @@ test("works offline after the first visit", async ({ page, context }) => {
   await expect.poll(() => page.evaluate(() => Boolean(navigator.serviceWorker.controller))).toBe(true);
 
   await context.setOffline(true);
+  await context.route((url) => url.hostname !== "localhost", (route) => route.abort("internetdisconnected"));
   await page.reload();
   await expect(page.locator("#offline-bar")).toBeVisible();
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Šta čitaš sledeće?");
