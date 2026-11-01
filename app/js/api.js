@@ -1,3 +1,5 @@
+/* © 2026 Nikola Vojvodić · https://nikolxdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
+
 import { workId } from "./util.js";
 
 export const API_ROOT = "https://openlibrary.org";

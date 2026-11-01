@@ -1,3 +1,5 @@
+/* © 2026 Nikola Vojvodić · https://nikolxdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
+
 import { coverUrl } from "./api.js";
 import { bookHash } from "./router.js";
 import { escapeHtml as esc, hashString, truncate, clamp } from "./util.js";

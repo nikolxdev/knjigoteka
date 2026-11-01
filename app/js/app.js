@@ -1,3 +1,5 @@
+/* © 2026 Nikola Vojvodić · https://nikolxdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
+
 import { createApi } from "./api.js";
 import { createStore } from "./store.js";
 import { parseRoute, searchHash } from "./router.js";
@@ -235,3 +237,16 @@ shelfCount.textContent = String(store.books.length);
 applyLanguage();
 render();
 initPwa({ t: (...args) => i18n.t(...args), toast });
+
+(function () {
+  var HOMES = ["nikolxdev.github.io", "localhost", "127.0.0.1", "[::1]", ""];
+  var host = location.hostname;
+  if (HOMES.indexOf(host) > -1 || /\.localhost$/.test(host)) return;
+  var link = document.createElement("a");
+  link.className = "nv-original";
+  link.href = "https://nikolxdev.github.io/";
+  link.textContent = "Original work by Nikola Vojvodić";
+  link.setAttribute("data-nv", "nv:2919f35f44");
+  document.body.appendChild(link);
+  console.warn("This page is a copy of work by Nikola Vojvodić (© 2026, all rights reserved): https://nikolxdev.github.io/ [nv:2919f35f44]");
+})();

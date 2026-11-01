@@ -1,3 +1,5 @@
+/* © 2026 Nikola Vojvodić · https://nikolxdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
+
 import { STATUSES } from "../store.js";
 import { SHELF_SORTS, shelfHash } from "../router.js";
 import { bookCardHtml, emptyStateHtml, icon, spineHtml } from "../ui.js";

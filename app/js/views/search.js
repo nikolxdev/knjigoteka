@@ -1,3 +1,5 @@
+/* © 2026 Nikola Vojvodić · https://nikolxdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
+
 import { OfflineError, PAGE_SIZE, SORTS } from "../api.js";
 import { activeFilterCount, hasSearch, searchHash } from "../router.js";
 import { bookCardHtml, emptyStateHtml, icon, searchFormHtml, skeletonCards } from "../ui.js";

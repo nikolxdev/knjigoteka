@@ -1,3 +1,5 @@
+/* © 2026 Nikola Vojvodić · https://nikolxdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
+
 import { SORTS } from "./api.js";
 import { STATUSES } from "./store.js";
 import { isWorkId, workId } from "./util.js";

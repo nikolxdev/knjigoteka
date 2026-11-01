@@ -1,3 +1,5 @@
+/* © 2026 Nikola Vojvodić · https://nikolxdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
+
 import { searchHash, bookHash } from "../router.js";
 import { bookCardHtml, coverHtml, decorativeSpines, searchFormHtml, skeletonCards, spineHtml } from "../ui.js";
 import { escapeHtml as esc } from "../util.js";

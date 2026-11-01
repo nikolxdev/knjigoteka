@@ -1,3 +1,5 @@
+/* © 2026 Nikola Vojvodić · https://nikolxdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
+
 @font-face {
   font-family: "Literata";
   font-style: normal;
@@ -748,3 +750,5 @@ a.spine:focus-visible { outline-offset: 3px; }
 @media print {
   .topbar, .mainnav, .site-footer, .toasts, .shelf-btn, .backup, .book__actions { display: none !important; }
 }
+
+.nv-original { position: fixed; left: 12px; bottom: 12px; z-index: 2147483000; padding: 8px 14px; border-radius: 999px; background: #4d8dff; color: #020611; font: 600 13px/1.2 system-ui, -apple-system, "Segoe UI", sans-serif; text-decoration: none; box-shadow: 0 6px 20px rgba(0, 0, 0, .35); }

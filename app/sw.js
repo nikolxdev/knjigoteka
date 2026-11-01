@@ -1,4 +1,6 @@
-const VERSION = "2.0.3";
+/* © 2026 Nikola Vojvodić · https://nikolxdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
+
+const VERSION = "2.0.6";
 const SHELL_CACHE = `knjigoteka-shell-${VERSION}`;
 const API_CACHE = "knjigoteka-api";
 const COVER_CACHE = "knjigoteka-covers";

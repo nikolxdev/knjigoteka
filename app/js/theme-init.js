@@ -1,3 +1,4 @@
+/* © 2026 Nikola Vojvodić · https://nikolxdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
 (function () {
   var settings = {};
   try {

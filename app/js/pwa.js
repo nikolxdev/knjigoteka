@@ -1,3 +1,5 @@
+/* © 2026 Nikola Vojvodić · https://nikolxdev.github.io/ · All rights reserved, see LICENSE. [nv:2919f35f44] */
+
 export function initPwa({ t, toast }) {
   const offlineBar = document.getElementById("offline-bar");
   const installButton = document.getElementById("install-btn");
